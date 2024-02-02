@@ -1,0 +1,16 @@
+
+.component__menu{
+    display: flex;
+    justify-content: center;
+}
+.component__menu > ul{
+    display: flex;
+    flex-direction: row;
+}
+.component__menu >ul >li{
+    list-style: none;
+    margin-left: 10px;
+}
+.component__menu >ul >li >a{
+    color: inherit;
+}

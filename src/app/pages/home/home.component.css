@@ -1,0 +1,22 @@
+
+header{
+    margin-top: 20 px;
+    margin-bottom: 10px;
+}
+
+.component__articles{
+    margin-top: 30px ;
+    
+    @media(min-width: 700px) {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+}
+.component__articles-main{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+

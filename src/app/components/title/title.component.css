@@ -1,0 +1,14 @@
+.component_title {
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.component_title > h1{
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+}
